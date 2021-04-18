@@ -1,0 +1,22 @@
+<main>
+    <h1 id="title">{{ title }}</h1>
+    <section>
+        <dl class="card text-center m-3">
+            {{#each projects}}
+               <image class="icon m-2" src={{profile}}></image>
+                <dt>
+                    <h3>{{title}}</h3>
+                <dd>{{desc}}</dd>
+                <dd>Links: <a href={{url}} target="_blank">{{url}}</a></dd>
+                </dt>
+            {{else}}
+                <dt>
+                    <h3>Sorry, nothing to display.</h3>
+                </dt>
+            {{/each}} 
+            <br>
+            *These are just fictictious projects and sites.           
+        </dl>
+        
+    </section>
+</main>

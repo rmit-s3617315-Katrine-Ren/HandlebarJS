@@ -1,0 +1,37 @@
+{{!-- The content in this file would be rendered into root template. --}}
+
+<main>
+    <h1 id="title">{{title}}</h1>
+    <section class="card">
+        <h1>Advice from a Caterpillar</h1>
+        <article>
+            <p><i>“How do you like the Queen?” said the Cat in a low voice.
+                    “Not at all,” said Alice: “she’s so extremely—” Just then she noticed that the Queen was close
+                    behind
+                    her, listening: so she went on “—likely to win, that it’s hardly worth while finishing the
+                    game.”</i></p>
+
+            <p><i>—Chapter 8, The Queen’s Croquet-Ground</i></p>
+            <br>
+            <p>“Who are you?” said the Caterpillar.
+                This was not an encouraging opening for a conversation. Alice replied, rather shyly, “I—I hardly know,
+                Sir, just at present—at least I know who I was when I got up this morning, but I think I must have been
+                changed several times since then.”
+                “What do you mean by that?” said the Caterpillar, sternly. “Explain yourself!”
+                “I ca’n’t explain myself, I’m afraid, Sir,” said Alice, “because I am not myself, you see.”</p><br>
+            Source: <a
+                href="https://bookriot.com/alice-in-wonderland-quotes/">36 OF MY FAVORITE ALICE IN WONDERLAND QUOTES</a>
+        </article>
+    </section>
+    <section>
+        <h2>Curiouser and curiouser!</h2>
+        <div>
+            <button class="btn" onclick="show()">Show</button>
+            <button class="btn" onclick="hide()">Hide</button>
+        </div>
+        <div class="media-content">
+            <video id={{video.id}} src = {{video.src}} controls></video>
+            <audio id={{audio.id}} src = {{audio.src}} controls></audio>
+        </div>
+    </section>
+</main>
