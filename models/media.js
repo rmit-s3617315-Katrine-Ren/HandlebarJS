@@ -1,12 +1,12 @@
 
 const video = {
     id:'video',
-    src:'../public/image/nyc480.mov'
+    src:'image/nyc480.mov'
 }
 
 const audio = {
     id:'audio',
-    src:'http://apollo.gtc.edu/~hurc/152-182/podcast/podcast.mp3'
+    src:'https://youtu.be/l210g5PbV9c'
 }
 
 module.exports = {video,audio};
