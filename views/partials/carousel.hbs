@@ -1,0 +1,17 @@
+
+<div class="slide-container">
+    <div class="slides">
+        <div class="slide-img">
+            {{#each slideshows}}
+              <div class="caption">
+                  <image class="slide" src={{imgurl}}></image>
+                  <h3>{{title}}</h3> 
+              </div>
+                 
+            {{else}}
+                    <h2>Sorry, nothing to display.</h2>
+            {{/each}} 
+        </div>
+
+    </div>
+</div>
