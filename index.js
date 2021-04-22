@@ -6,8 +6,7 @@ const expHandlebars = require('express-handlebars');
 
 // Tell the app to use the resources
 app.use(express.static(__dirname+"/public"));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
+
 
 //Handlebars setting
 app.set('view engine','hbs');
@@ -21,7 +20,7 @@ app.engine('hbs',expHandlebars({
 }));
 
 //Data pass in
-const {video,audio} = require('./models/media');
+const {video,audio,slideshows} = require('./models/media');
 const {projects} = require('./models/portfolio');
 
 
@@ -30,7 +29,7 @@ app.listen(port);
 console.log(`Listening to server http://localhost:${port}`);
 
 //Landing page
-app.get('/',(req,res)=>{res.render('main',{title:'Welcome to my mini portfolio!',video:video,audio:audio})});
+app.get('/',(req,res)=>{res.render('main',{title:'Welcome to my mini portfolio!',video:video,audio:audio,slideshows:slideshows})});
 
 //other pages
 app.get('/about',(req,res)=>{res.render('about',{title:'About Me'})});
@@ -39,4 +38,8 @@ app.get('/contact',(req,res)=>{res.render('contact',{title:'Contact Us'})});
 
 app.get('/portfolio',(req,res)=>{res.render('portfolio',{title:'My Showcase',projects:projects})});
 
+//adding a product page
+app.get('/products',(req,res)=>{res.render('products',{title:'New Product',slideshows:slideshows})});
+
 app.get('*',(req,res)=>{res.render('notFound',{title:'Page Not Found'})});
+
