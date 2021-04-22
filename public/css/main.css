@@ -161,6 +161,7 @@ header {
   box-sizing: border-box;
   background-color: rgba(0,0,0,0.5);
 }
+
 /* Carousel Animation */
 @keyframes animate {
   0%{
@@ -187,11 +188,40 @@ header {
   95%{
     left:-320%;
   }
-  /* 100%{
-    left:-330%;
-  } */
 
-  
+}
+
+/* New Product Page */
+
+/* Left Column */
+.sub-left-container{
+  display: flex;
+} 
+
+.extra-img{
+  width: 30px;
+  height: 30px;
+}
+
+/* Right Column */
+.right-column #brand{
+  color:rgb(255,68,0);
+
+}
+
+.right-column #productDesc{
+  overflow: auto;
+  color: #7f7f7f;
+  margin-bottom: 8.5rem;
+}
+
+.right-column #productDesc ul{
+  list-style:disc;
+  color:var(--info-color);
+  position: absolute;
+  left: 40%;
+  margin-top: 1rem;
+  /* border: solid 3px yellow; */
 }
 
 
@@ -216,7 +246,7 @@ footer {
   padding: 10px;
 }
 
-/* Products */
+
 
 
 /* Utilities */
@@ -243,6 +273,16 @@ footer {
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.medium {
+  font-size: 1rem;
+  margin-top: 0.8rem;
+}
+
+.small {
+  font-size: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .text-center {
@@ -359,8 +399,8 @@ footer {
 /* Grid */
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2rem;
 }
 
 .grid-3 {

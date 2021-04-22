@@ -6,7 +6,9 @@ const expHandlebars = require('express-handlebars');
 
 // Tell the app to use the resources
 app.use(express.static(__dirname+"/public"));
-
+//body-parser is now a part of the Express
+app.use(express.json());
+app.use(express.urlencoded());
 
 //Handlebars setting
 app.set('view engine','hbs');
@@ -22,6 +24,7 @@ app.engine('hbs',expHandlebars({
 //Data pass in
 const {video,audio,slideshows} = require('./models/media');
 const {projects} = require('./models/portfolio');
+const {products}= require('./models/products');
 
 
 const port = 8900;
@@ -38,8 +41,8 @@ app.get('/contact',(req,res)=>{res.render('contact',{title:'Contact Us'})});
 
 app.get('/portfolio',(req,res)=>{res.render('portfolio',{title:'My Showcase',projects:projects})});
 
-//adding a product page
-app.get('/products',(req,res)=>{res.render('products',{title:'New Product',slideshows:slideshows})});
+//adding a Product page
+app.get('/products',(req,res)=>{res.render('products',{title:'New Product',products:products})});
 
 app.get('*',(req,res)=>{res.render('notFound',{title:'Page Not Found'})});
 

@@ -1,0 +1,115 @@
+{
+    "id": "bigc_Superdry_prd_SM11WT6P_88X",
+    "fromProduct": "SM11WT6P",
+    "groupId": "SM11WT6P_88X",
+    "attributes": {
+      "description": "<p>An iconic part of our brand history, the Orange Label Vintage Embroidery Tee is a tried and true staple. This mens Superdry T shirt features a ribbed crew neck and short sleeves. The chest is styled with an embroidered Superdry logo design. This item is finished with a Superdry logo tab.</p><p>Made from our organic cotton, the natural farming methods minimise water use, remove toxic chemicals and benefits the soil and livelihoods of our farmers. Cool for you and better for the planet, this tee is the ultimate essential. You can keep it casual with joggers, add shorts or dress up with chinos and boots.</p><ul><li>Slim fit mens tee</li><li>Ribbed crew neck</li><li>Short sleeves</li><li>Superdry embroidery at the chest</li><li>Superdry logo tab</li></ul>",
+      "metaDescription": "An iconic part of our brand history, the Orange Label Vintage Embroidery Tee is a tried and true staple. This mens Superdry T shirt features a ribbed crew neck and short sleeves. The chest is styled with an embroidered Superdry logo design. This item is finished with a Superdry logo tab.",
+      "category_ids": "42,60",
+      "search_keywords": "Superdry,Ol vintage emb tee,Mens,Core Tees,Plain T Shirts,Heritage",
+      "avaliablity": "available",
+      "name": "Ol Vintage Emb Tee Upstate Gold Marle",
+      "price": "39.95",
+      "rrpPrice": "39.95",
+      "salePrice": "39.95",
+      "brand": "SUPERDRY",
+      "CUSTOMFIELD_Cat": "Basic",
+      "CUSTOMFIELD_ProductType": "Plain T Shirts",
+      "CUSTOMFIELD_customer_facing_product_name": "Orange Label Vintage Embroidery Tee",
+      "CUSTOMFIELD_additional_product_colours": "SM11WT6P_8J3|SM11WT6P_8IY|SM11WT6P_89T|SM11WT6P_8J2|SM11WT6P_87S|SM11WT6P_88L|SM11WT6P_88M|SM11WT6P_89S|SM11WT6P_89A|SM11WT6P_89O|SM11WT6P_88X|SM11WT6P_8J5",
+      "CUSTOMFIELD_coo": "India",
+      "CUSTOMFIELD_style_code": "SM11WT6P",
+      "CUSTOMFIELD_parent_product_code": "61780",
+      "CUSTOMFIELD_gender": "Mens",
+      "CUSTOMFIELD_age_group": "Adult",
+      "CUSTOMFIELD_default_size_range": "Apparel",
+      "CUSTOMFIELD_colour_code": "SM11WT6P_88X",
+      "CUSTOMFIELD_Colour": "Yellow",
+      "CUSTOMFIELD_upout_material": "Cotton",
+      "CUSTOMFIELD_ClrIDX": "167776",
+      "CUSTOMFIELD_care_dryclean": "do not dry clean",
+      "CUSTOMFIELD_care_drying": "do not tumble dry",
+      "CUSTOMFIELD_care_iron": "iron - low",
+      "CUSTOMFIELD_care_wash": "Cold gentle machine wash, 30 degrees with similar colours.",
+      "CUSTOMFIELD_size_guide": "mens-tops",
+      "GOOGLE_CATEGORY": "Apparel & Accessories > Clothing > Shirts & Tops",
+      "GOOGLE_PRODUCT_TYPE": "APPAREL > CORE TEES > BASIC > PLAIN T SHIRTS",
+      "GOOGLE_COLOUR": "Yellow",
+      "image_url": "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136037/SUPERDRY-01__63457.1618959145.500.750.jpg?c=2",
+      "extra_image_urls": ["https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136038/SUPERDRY-02__23479.1618959149.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136039/SUPERDRY-03__60072.1618959152.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136040/SUPERDRY-04__10084.1618959155.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136041/SUPERDRY-05__77832.1618959158.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136042/SUPERDRY-06__17676.1618959162.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136043/SUPERDRY-07__66721.1618959165.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136044/SUPERDRY-08__50149.1618959168.500.750.jpg?c=2",
+  "https://cdn11.bigcommerce.com/s-86auyhdt5q/products/8318/images/136037/SUPERDRY-01__63457.1618959145.500.750.jpg?c=2"],
+      "url": "https://superdry.com.au/mens/new-in/ol-vintage-emb-tee-upstate-gold-marle/"
+  
+    },
+    "variants": [
+      {
+        "productSku": "SM11WT6P_88X_M",
+        "attributes": {
+          "barcode": "5059046255504",
+          "inventoryLevel": "510"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_XS",
+        "attributes": {
+          "barcode": "5059046255481",
+          "inventoryLevel": "183"
+        }
+    },
+      {
+        "productSku": "SM11WT6P_88X_XL",
+        "attributes": {
+          "barcode": "5059046255528",
+          "inventoryLevel": "385"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_S",
+        "attributes": {
+          "barcode": "5059046255498",
+          "inventoryLevel": "349"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_3XL",
+        "attributes": {
+          "barcode": "5059046255542",
+          "inventoryLevel": "102"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_L",
+        "attributes": {
+          "barcode": "5059046255511",
+          "inventoryLevel": "502"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_4XL",
+        "attributes": {
+          "barcode": "5059046519613",
+          "inventoryLevel": "36"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_2XS",
+        "attributes": {
+          "barcode": "5059046519606",
+          "inventoryLevel": "37"
+        }
+      },
+      {
+        "productSku": "SM11WT6P_88X_2XL",
+        "attributes": {
+          "barcode": "5059046255535",
+          "inventoryLevel": "248"
+        }
+      }
+    ]
+  }
