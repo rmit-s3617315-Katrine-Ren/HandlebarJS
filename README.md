@@ -1,4 +1,5 @@
 # A simple application made by ExpressJS & applying Handlebars
+This is a simple web portfolio by using Express & Handlebars tempalte engine
 
 Reference to read
 -----------------
@@ -12,10 +13,8 @@ Set up the environment
 ----------------------
 
 Initialize the project
-###
-`cd dir_name`
-###
-`npm init`
+<code>cd dir_name</code>
+<code>npm init</code>
 
 Install the following modules locally by npm:
 - express
