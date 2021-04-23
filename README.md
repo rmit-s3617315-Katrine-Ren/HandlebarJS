@@ -11,8 +11,10 @@ Reference to read
 Set up the environment
 ----------------------
 
-Initialize the project 
+Initialize the project
+###
 `cd dir_name`
+###
 `npm init`
 
 Install the following modules locally by npm:
@@ -20,7 +22,7 @@ Install the following modules locally by npm:
 - express-handlebars
 - nodemon
 
-<code> npm install express express-handlebars nodemon --save </code>
+<code>npm install express express-handlebars nodemon --save</code>
 
 *Since the installation of nodemon is local, to run nodemon, using
-<code> npx nodemon <code>*
+<code>npx nodemon</code>
