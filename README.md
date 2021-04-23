@@ -24,6 +24,6 @@ Install the following modules locally by npm:
 
 <code>npm install express express-handlebars nodemon --save</code>
 
-*Since the installation of nodemon is local, to run nodemon, using
+*Since the installation of nodemon is local, to run nodemon, using*
 <code>npx nodemon</code>
 
