@@ -1,5 +1,29 @@
-# HandlebarsJS
+# A simple application made by ExpressJS & applying Handlebars
+This is a simple web portfolio by using Express & Handlebars tempalte engine
 
-This is a dummy portfolio using Handlebars and Express JS.
-###
-The src of video and audio are placeholders that may need to updated.
+
+Reference to read
+-----------------
+- [Handlebar documentation](https://handlebarsjs.com)
+- [A tutorial created by Christian Hur](https://github.com/ChristianHur/152-150-Web-Programming-2/blob/master/unit6)
+- [express-handlebars docs](https://www.npmjs.com/package/express-handlebars)
+
+
+
+Set up the environment
+----------------------
+
+Initialize the project
+<code>cd dir_name</code>
+<code>npm init</code>
+
+Install the following modules locally by npm:
+- express
+- express-handlebars
+- nodemon
+
+<code>npm install express express-handlebars nodemon --save</code>
+
+*Since the installation of nodemon is local, to run nodemon, using*
+<code>npx nodemon</code>
+
