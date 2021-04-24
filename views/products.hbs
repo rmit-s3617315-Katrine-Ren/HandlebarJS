@@ -5,27 +5,26 @@
         {{#with products}}
         {{!-- The left column: image --}}
         <div class="left-column">
-            <image class="main-img" src={{attributes.image_url}}></image>
+            <image class="main-img" src={{attributes.image_url}} id="productImg"></image>
             {{!-- extra images below main image --}}
             <div class="sub-left-container">
                 {{#each attributes.extra_image_urls}}
                 <image class="extra-img" src={{[]}}></image>
                 {{/each}}
             </div>
-
         </div>
+
         {{!-- The right column: name & desc --}}
         <div class="right-column">
             <h4 id="brand">{{attributes.brand}}</h4>
-            <h2 id="productName">{{attributes.name}}</h2>
+            <h2 id="productName">{{attributes.CUSTOMFIELD_customer_facing_product_name}}</h2>
             <h3 id="price">$ {{attributes.price}}</h3>
             <div id="productDesc" class="medium">
                 {{{attributes.description}}}
                 <br>
             </div>
+            <a href={{attributes.url}} id="productLink">View Details</a>
     
-                
-            
         </div>
         {{/with}}
 
@@ -35,3 +34,4 @@
     </div>
 
 </main>
+
