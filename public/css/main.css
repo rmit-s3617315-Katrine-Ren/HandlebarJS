@@ -201,12 +201,13 @@ header {
 .extra-img{
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  border: solid var(--light-color) 0.2px;
 }
 
 /* Right Column */
 .right-column #brand{
   color:rgb(255,68,0);
-
 }
 
 .right-column #productDesc{
@@ -215,16 +216,26 @@ header {
   margin-bottom: 8.5rem;
 }
 
+.right-column #productDesc p{
+  margin-bottom: 0.5rem;
+}
+
+
 .right-column #productDesc ul{
   list-style:disc;
   color:var(--info-color);
   position: absolute;
   left: 40%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   /* border: solid 3px yellow; */
 }
 
+.right-column #productLink{
+  float: right;
+  margin-bottom: 3rem;
+}
 
+/* The <main> settings */
 main {
   position: absolute;
   top: 8rem;
