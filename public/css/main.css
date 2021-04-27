@@ -106,7 +106,7 @@ header {
 
 /* Carousel Setting */
 .quote,.media{
-  visibility: hidden;
+  display: none;
 }
 
 .slide-container{
@@ -115,6 +115,8 @@ header {
   width: 100%;
   height: 70vh;
   overflow: hidden;
+  margin-bottom: 5rem;
+  
 }
 
 .slide-container .slides{
@@ -126,7 +128,6 @@ header {
   /* border: solid 1px orange; */
   animation: animate 10s linear infinite;
   
-
 }
 
 .slide-container .slides .slide-img{
@@ -220,7 +221,6 @@ header {
   margin-bottom: 0.5rem;
 }
 
-
 .right-column #productDesc ul{
   list-style:disc;
   color:var(--info-color);
@@ -240,7 +240,7 @@ main {
   position: absolute;
   top: 8rem;
   left: 20%;
-  margin: 4rem auto 5rem auto; 
+  margin: 4rem auto 8.5rem auto; 
   padding: 10px;
   width: 60%;
   z-index: 0;
@@ -631,4 +631,6 @@ table th {
     text-align: center;
     justify-content: center;
   }
+
+  
 }
