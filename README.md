@@ -6,7 +6,6 @@ Reference to read
 -----------------
 - [Handlebar documentation](https://handlebarsjs.com)
 - [A tutorial created by Christian Hur](https://github.com/ChristianHur/152-150-Web-Programming-2/blob/master/unit6)
-- [express-handlebars docs](https://www.npmjs.com/package/express-handlebars)
 
 
 
