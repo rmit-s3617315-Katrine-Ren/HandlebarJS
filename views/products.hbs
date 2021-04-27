@@ -5,11 +5,11 @@
         {{#with products.attributes}}
         {{!-- The left column: image --}}
         <div class="left-column">
-            <image class="main-img" src={{image_url}} id="productImg"></image>
+            <img class="main-img" src={{image_url}} id="productImg"></img>
             {{!-- extra images below main image --}}
             <div class="sub-left-container">
                 {{#each extra_image_urls}}
-                <image class="extra-img" src={{[]}}></image>
+                <img class="extra-img" src={{[]}}></img>
                 {{/each}}
             </div>
         </div>

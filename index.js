@@ -1,7 +1,7 @@
 // Create an express app by importing modules
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const expHandlebars = require('express-handlebars');
 
 // Tell the app to use the resources
